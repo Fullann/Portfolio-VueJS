@@ -35,7 +35,7 @@ export default {
     enabled: true,
   },
   blog: {
-    enabled: false,
+    enabled: true,
   },
   resume: {
     enabled: true,
@@ -60,10 +60,10 @@ export default {
     ]
   },
   recommendations: {
-    enabled: false,
+    enabled: true,
     meta: [
-      { name: 'Varun Jain', designation: 'Founder, SendX & SendPost', image: '/images/varun.jpeg', linkedin: 'https://www.linkedin.com/in/varun-jain-582b0215/', content: 'Gyan interned with SendX and SendPost for around 6 months. He is a very strong full-stack engineer who can create pixel perfect frontend while being able to work on backend pieces sending millions of emails per day. He is a quick learner, a great team player and, has a very strong work ethic. You can rely on him that things will be done with utmost quality. He also has pretty good product instincts and can think from the user\'s perspective.' },
-      { name: 'Gaurav Sen', designation: 'Founder, InterviewReady', image: '/images/gaurav.jpeg', linkedin: 'https://www.linkedin.com/in/gkcs/', content: 'Karn is an extraordinarily talented, diligent and foresighted individual. He is gifted at building products from paper to code, and has a knack of finding efficient solutions to complex problems. In my experience, I have rarely seen such a mixture of talent and passion put together. At InterviewReady, Karn exceeded our expectations. If you are considering working with him: congratulations, you are going to have a great time!' },
+      { name: 'Angelica Rosso', designation: 'Directrice Recherche et Dveloppement', image: '/images/entreprise/solmani.svg', linkedin: 'https://www.linkedin.com/in/angelicarosso/', content: 'Organisé,concencieux,ponctuel et professionnel, Monsieur Füllemann, nous a fait une bonne impression.Il s est aquitté des tâches confiées à notre entière satisfaction.' },
+      
     ]
   },
   loadingIndicator: {
@@ -133,10 +133,10 @@ export default {
       download: 'Télécharger',
       nav: {
         home: 'Acceuil',
-        blog: 'blog',
+        blog: 'Blog',
         projects: 'Projets',
-        uses: 'uses',
-        resume: 'Résumé',
+        uses: 'Setup',
+        resume: 'CV',
         buyMeACoffee: 'Buy me a beer',
         signIn: 'sign in',
         signOut: 'sign out'
@@ -144,7 +144,7 @@ export default {
       hero: {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
-        friendlyNeighborhood: 'Je suis un gentil',
+        friendlyNeighborhood: 'Je suis un',
         description: 'Je suis un jeune developper frontend.Je suis étudiant à l ETML et dans mon temps libre je bricole des projets secondaires.',
         words: ['développeur', 'designer', 'programmeur'],
         work: "A travailler chez"
@@ -154,12 +154,12 @@ export default {
         subtext: 'Calendrier Github'
       },
       blog: {
-        header: 'blog',
-        subtext: 'i try to write once in a while. let me know your thoughts in comments or mail@karngyan.com'
+        header: 'Blog',
+        subtext: 'Je fais des essais en informatique et je vous les racontes.'
       },
       recentBlog: {
-        header: 'recent blogs',
-        subtext: 'it takes a lot of time to write man'
+        header: 'Dernières publications',
+        subtext: 'Mes nouvelles expériences'
       },
       uses: {
         header: 'uses',

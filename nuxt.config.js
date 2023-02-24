@@ -206,7 +206,7 @@ const nuxtConfig = {
   },
 
   loading: {
-    color: '#fd2d78',
+    color: '#d919f7',
     height: '1px',
     throttle: 0
   },

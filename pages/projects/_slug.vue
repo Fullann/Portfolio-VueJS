@@ -75,7 +75,7 @@ export default {
   },
   head() {
     return {
-      title: this.project.title + ` -- projects -- ${this.$config.name}`,
+      title: this.project.title + ` - projet - ${this.$config.name}`,
       meta: [
         { hid: 'description', name: 'description', content: this.project.description },
         // Open Graph
