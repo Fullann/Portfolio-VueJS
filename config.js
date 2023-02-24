@@ -147,9 +147,9 @@ export default {
       hero: {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
-        friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'asdsadsauhsdofsduiovhsfdiluvhs',
-        words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
+        friendlyNeighborhood: 'Un gentil',
+        description: 'Je suis un jeune developper frontend.Je suis étudiant à l ETML et dans mon temps libre je bricole des projets secondaires.',
+        words: ['développeur', 'designer', 'programmeur'],
       },
       githubCalendar: {
         header: 'Contributions',

@@ -15,7 +15,7 @@
       <div class="w-full">
         <a :href="`https://codestats.net/users/${$config.social.codestats}`" target="_blank" rel="noreferrer">
           <dl>
-            <dt class="text-sm leading-6 font-normal text-hot-pink">
+            <dt class="text-sm leading-6 font-normal text-purple-600">
               Level {{ level }}
             </dt>
             <dd class="mt-1 flex justify-between items-baseline md:flex lg:flex">

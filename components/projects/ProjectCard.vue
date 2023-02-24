@@ -3,8 +3,8 @@
       <div class="flex-1 bg-gray-900 p-5 flex flex-row justify-between">
         <div class="flex-1 flex flex-col justify-between">
           <div>
-            <div class="text-xs font-medium text-hot-pink hover:text-hot-pink">
-              <p class="text-hot-pink">
+            <div class="text-xs font-medium text-purple-600 hover:text-purple-600">
+              <p class="text-purple-600">
                 {{ project.tech }}
               </p>
             </div>

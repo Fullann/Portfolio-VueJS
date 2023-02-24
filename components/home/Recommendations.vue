@@ -3,10 +3,10 @@
     <div class="max-w-prose text-center mx-auto pb-4">
       <p class="text-xs leading-6 text-indigo-600 font-semibold tracking-wide lowercase">{{ $t('recommendations.subtext') }}</p>
       <div v-if="$config.social.linkedin">
-        <a :href="`https://linkedin.com/in/${$config.social.linkedin}`" target="_blank" rel="noreferrer" class="mt-2 text-3xl hover:text-hot-pink leading-8 font-extrabold tracking-tight text-gray-500">{{ $t('recommendations.header') }}</a>
+        <a :href="`https://linkedin.com/in/${$config.social.linkedin}`" target="_blank" rel="noreferrer" class="mt-2 text-3xl hover:text-purple-600 leading-8 font-extrabold tracking-tight text-gray-500">{{ $t('recommendations.header') }}</a>
       </div>
       <div v-else>
-        <div class="mt-2 text-3xl hover:text-hot-pink leading-8 font-extrabold tracking-tight text-gray-500">{{ $t('recommendations.header') }}</div>
+        <div class="mt-2 text-3xl hover:text-purple-600 leading-8 font-extrabold tracking-tight text-gray-500">{{ $t('recommendations.header') }}</div>
       </div>
     </div>
 

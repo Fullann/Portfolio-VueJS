@@ -5,8 +5,8 @@
       </div>
       <div class="flex-1 bg-gray-900 p-5 flex flex-col justify-between">
         <div class="flex-1">
-          <p class="text-xs font-medium text-hot-pink hover:text-hot-pink">
-            <a href="#" class="hover:underline hover:text-hot-pink">
+          <p class="text-xs font-medium text-purple-600 hover:text-purple-600">
+            <a href="#" class="hover:underline hover:text-purple-600">
               {{ post.category }}
             </a>
           </p>
