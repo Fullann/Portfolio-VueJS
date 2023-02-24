@@ -44,7 +44,7 @@ export default {
   uses: {
     enabled: false,
     meta: [
-      {title: 'OS', value: 'macOS Catalina'},
+      {title: 'OS', value: 'windows 11'},
       {title: 'Memory', value: '16 GB 2667 MHz DDR4'},
       {title: 'Keyboard', value: 'Keychron K2 - Gateron Brown Keys'},
       {title: 'Mouse', value: 'Logitech Silent Pebble'},
@@ -54,12 +54,9 @@ export default {
   },
   workedAt: {
     // add logos in static and at max add 3/4
-    enabled: false,
+    enabled: true,
     meta: [
-      { name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
-      { name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
-      { name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
-      { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
+      { name: 'Solmani SA', src: '/images/entreprise/solmani.svg', url: 'https://solmani.ch' },
     ]
   },
   recommendations: {
@@ -147,9 +144,10 @@ export default {
       hero: {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
-        friendlyNeighborhood: 'Un gentil',
+        friendlyNeighborhood: 'Je suis un gentil',
         description: 'Je suis un jeune developper frontend.Je suis étudiant à l ETML et dans mon temps libre je bricole des projets secondaires.',
         words: ['développeur', 'designer', 'programmeur'],
+        work: "A travailler chez"
       },
       githubCalendar: {
         header: 'Contributions',
