@@ -1,7 +1,7 @@
 {
-  "name": "karngyan.com",
-  "author": "Karn",
-  "version": "1.0.0",
+  "name": "fullann.ch",
+  "author": "Fullann",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",

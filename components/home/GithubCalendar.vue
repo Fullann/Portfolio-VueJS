@@ -18,6 +18,7 @@ import GitHubCalendar from 'github-calendar'
 export default {
   mounted() {
     GitHubCalendar(".calendar", this.$config.social.github, { responsive: true, tooltips: true });
+    console.log(this.$config.social.github)
   }
 }
 </script>
