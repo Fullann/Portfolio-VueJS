@@ -127,6 +127,10 @@ export default {
       recommendations: {
         header: 'recommendations',
         subtext: 'what do my mentors say'
+      },
+      error:{
+        text:'Uh oh! Looks like you got lost.Go back to the homepage if you dare!',
+        button:'I dare!'
       }
     },
     fr_FR: {
@@ -145,7 +149,7 @@ export default {
         iBlogTech: 'je fais des expéreince',
         haveALook: 'Jetez y un coup d œil',
         friendlyNeighborhood: 'Je suis un',
-        description: 'Je suis un jeune developper frontend.Je suis étudiant à l ETML et dans mon temps libre je bricole des projets secondaires.',
+        description: 'Je suis un jeune developper frontend.Je suis étudiant à l\u0027ETML et dans mon temps libre je bricole des projets secondaires.',
         words: ['développeur', 'designer', 'programmeur'],
         work: "A travailler chez"
       },
@@ -162,16 +166,20 @@ export default {
         subtext: 'Mes nouvelles expériences'
       },
       uses: {
-        header: 'uses',
-        subtext: 'a quick summary of what I use on a daily basis to code and some codestats.net flex'
+        header: 'Setup',
+        subtext: 'un résumé rapide de ce que j\u0027utilise quotidiennement pour coder'
       },
       projects: {
         header: 'Projets',
-        subtext: 'cette page énumère certains de mes projets personnels et professionnels. chaque projet a une histoire, cliquez sur le titre pour le lire'
+        subtext: 'Cette page énumère certains de mes projets personnels et professionnels. chaque projet a une description, cliquez sur le titre pour le lire'
       },
       recommendations: {
         header: 'Recomendations',
         subtext: 'Ce qu on a dit de moi'
+      },
+      error:{
+        text:'Oh oh ! On dirait que tu t\u0027es perdu.Retournez à la page d\u0027accueil si vous l\u0027osez !',
+        button:'J\u0027ose!'
       }
     }
   }

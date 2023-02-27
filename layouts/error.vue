@@ -35,10 +35,9 @@
         <div class="text">
           <article>
             <p>
-              Uh oh! Looks like you got lost. <br />Go back to the homepage if
-              you dare!
+              {{ $t('error.text')}}
             </p>
-            <button>i dare!</button>
+            <button @click="goHome">{{ $t('error.button')}}</button>
           </article>
         </div>
       </div>
@@ -47,11 +46,23 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    availableLocales () {
+      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+    }
+  },
+  methods : {
+      goHome(){
+        window.location.href = "/"
+      }
+    }
+};
 </script>
 
 <style scoped>
 .wrapper {
+ overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
