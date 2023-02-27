@@ -54,7 +54,7 @@ export default {
   },
   methods : {
       goHome(){
-        window.location.href = "/"
+        window.location.href = localePath('/')
       }
     }
 };

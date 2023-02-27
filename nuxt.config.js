@@ -67,23 +67,23 @@ const nuxtConfig = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: config.strings.en_US.hero.description },
-      { name: 'title', content: `${config.name} | friendly neighborhood developer` },
+      { name: 'title', content: `${config.name}` },
       { name: 'author', content: config.name },
       { property: 'og:type', content: 'website'},
       { property: 'og:url', content: config.social },
-      { property: 'og:title', content: `${config.name} | friendly neighborhood developer` },
+      { property: 'og:title', content: `${config.name} ` },
       { property: 'og:description', content: config.strings.en_US.hero.description },
       { property: 'og:image', content: `${config.image}` },
 
       { property: 'twitter:card', content: `${config.image}` },
       { property: 'twitter:url', content: `${config.domain}`},
-      { property: 'twitter:title', content: `${config.name} | friendly neighborhood developer` },
+      { property: 'twitter:title', content: `${config.name}` },
       { property: 'twitter:description', content: config.strings.en_US.hero.description },
       { property: 'twitter:image', content: `${config.image}` },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css'}
+      { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css'},
+      { rel: 'icon', type: 'image/x-icon', href: '/images/logo/logo.png' }
     ],
   },
 
@@ -128,9 +128,6 @@ const nuxtConfig = {
   ],
 
   pwa: {
-    icon: {
-      fileName: 'favicon.ico'
-    },
     meta: {
       name: config.domain,
       author: config.name,

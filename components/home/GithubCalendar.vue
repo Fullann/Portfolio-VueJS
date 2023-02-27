@@ -6,7 +6,7 @@
     >
       <div class="max-w-prose text-center mx-auto py-4">
         <p
-          class="text-xs leading-6 text-indigo-600 font-semibold tracking-wide lowercase"
+          class="text-xs leading-6 text-purple-600 font-semibold tracking-wide lowercase"
         >
           {{ $t("githubCalendar.subtext") }}
         </p>
@@ -14,7 +14,7 @@
           :href="`https://github.com/${$config.social.github}`"
           target="_blank"
           rel="noreferrer"
-          class="mt-2 text-3xl hover:text-purple-600 leading-8 font-extrabold tracking-tight text-gray-500"
+          class="mt-2 text-3xl hover:text-purple-600 leading-8 font-extrabold tracking-tight text-gray-400"
           >{{ $t("githubCalendar.header") }}</a
         >
       </div>
