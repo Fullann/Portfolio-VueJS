@@ -39,7 +39,7 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_GYAN_KARN_DARK.pdf' // add files in static folder
+    pdfUrl: '/NathanFüllemann-CV_2023.pdf' // add files in static folder
   },
   uses: {
     enabled: false,
@@ -62,7 +62,7 @@ export default {
   recommendations: {
     enabled: true,
     meta: [
-      { name: 'Angelica Rosso', designation: 'Directrice Recherche et Dveloppement', image: '/images/entreprise/solmani.svg', linkedin: 'https://www.linkedin.com/in/angelicarosso/', content: 'Organisé,concencieux,ponctuel et professionnel, Monsieur Füllemann, nous a fait une bonne impression.Il s est aquitté des tâches confiées à notre entière satisfaction.' },
+      { name: 'Angelica Rosso', designation: 'Directrice Recherche et Developpement', image: '/images/entreprise/solmani.svg', linkedin: 'https://www.linkedin.com/in/angelicarosso/', content: 'Organisé,concencieux,ponctuel et professionnel, Monsieur Füllemann, nous a fait une bonne impression.Il s est aquitté des tâches confiées à notre entière satisfaction.' },
       
     ]
   },
@@ -142,8 +142,8 @@ export default {
         signOut: 'sign out'
       },
       hero: {
-        iBlogTech: 'i blog tech',
-        haveALook: 'have a look',
+        iBlogTech: 'je fais des expéreince',
+        haveALook: 'Jetez y un coup d œil',
         friendlyNeighborhood: 'Je suis un',
         description: 'Je suis un jeune developper frontend.Je suis étudiant à l ETML et dans mon temps libre je bricole des projets secondaires.',
         words: ['développeur', 'designer', 'programmeur'],
