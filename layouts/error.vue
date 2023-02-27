@@ -37,7 +37,7 @@
             <p>
               {{ $t('error.text')}}
             </p>
-            <button @click="goHome">{{ $t('error.button')}}</button>
+            <nuxt-link class="button" :to="localePath('/')">{{ $t('error.button')}}</nuxt-link>
           </article>
         </div>
       </div>
@@ -51,12 +51,7 @@ export default {
     availableLocales () {
       return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
     }
-  },
-  methods : {
-      goHome(){
-        window.location.href = localePath('/')
-      }
-    }
+  }
 };
 </script>
 
@@ -217,7 +212,7 @@ export default {
   margin-bottom: 40px;
   text-shadow: 6px 6px 10px #32243E;
 }
-.wrapper .container .text article button {
+.wrapper .container .text article .button {
   height: 40px;
   padding: 0 30px;
   border-radius: 50px;
@@ -230,8 +225,10 @@ export default {
   font-weight: 600;
   font-size: 12px;
   transition: all 0.3s ease;
+  line-height: 35px;
+  text-align: center;
 }
-.wrapper .container .text article button:hover {
+.wrapper .container .text article .button:hover {
   box-shadow: 0px 10px 10px -10px rgba(54, 24, 79, 0.5);
   transform: translateY(5px);
   background: #FB8A8A;
