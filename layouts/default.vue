@@ -1,14 +1,13 @@
 <template>
   <div>
-    <TheNavBar/>
+    <TheNavBar />
     <Nuxt />
     <TheFooter />
   </div>
 </template>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
 <style>
@@ -20,10 +19,10 @@ html {
 }
 
 ::-moz-selection {
-    @apply bg-hot-pink text-white;
+  @apply bg-purple-500 text-white;
 }
 ::selection {
-    @apply bg-hot-pink text-white;
+  @apply bg-purple-500 text-white;
 }
 
 /* Page-transition styles must be global */
@@ -110,7 +109,5 @@ html {
 }
 </style>
 <script>
-
-export default {
-}
+export default {};
 </script>

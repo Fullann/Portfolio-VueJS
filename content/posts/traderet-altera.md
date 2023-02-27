@@ -11,9 +11,8 @@ tags:
   - ipsum
 category: interview
 author:
-  name: karn
-  twitter: gyankarn
-  image: /images/bigheadkarngyan.png
+  name: Fullann
+  image: /images/me/logo.png
 ---
 
 # Traderet altera id subitis coeunt in haut

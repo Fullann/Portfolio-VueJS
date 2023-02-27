@@ -7,20 +7,20 @@ export default {
   logo: '/images/logo/logo.png',
   email: 'nathan@fullann.ch',
   googleAnalyticsV4: {
-    enabled: false,
-    id: ''
+    enabled: true,
+    id: 'G-X0R2SXXD72'
   },
   plausibleAnalytics: {
     enabled: false,
-    domain: 'template.karngyan.com',
-    trackLocalhost: false,
+    domain: 'fullann.ch',
+    trackLocalhost: true,
     // leave it empty if plausible is not self hosted
     apiHost: 'https://analytics.lookatx.dev' // default: https://plausible.io
   },
   // enable if you want comments and likes on posts
   // see how it looks on karngyan.com
   firebase: {
-    enabled: false
+    enabled: true
   },
   social: {
     github: 'Fullann',
@@ -44,7 +44,7 @@ export default {
   uses: {
     enabled: false,
     meta: [
-      {title: 'OS', value: 'windows 11'},
+      {title: 'OS', value: 'Windows 11'},
       {title: 'Memory', value: '16 GB 2667 MHz DDR4'},
       {title: 'Keyboard', value: 'Keychron K2 - Gateron Brown Keys'},
       {title: 'Mouse', value: 'Logitech Silent Pebble'},
@@ -56,13 +56,13 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
-      { name: 'Solmani SA', src: '/images/entreprise/solmani.svg', url: 'https://solmani.ch' },
+      { name: 'Solmani SA', src: '/images/entreprise/solmani/solmani.svg', url: 'https://solmani.ch' },
     ]
   },
   recommendations: {
     enabled: true,
     meta: [
-      { name: 'Angelica Rosso', designation: 'Directrice Recherche et Developpement', image: '/images/entreprise/solmani.svg', linkedin: 'https://www.linkedin.com/in/angelicarosso/', content: 'Organisé,concencieux,ponctuel et professionnel, Monsieur Füllemann, nous a fait une bonne impression.Il s est aquitté des tâches confiées à notre entière satisfaction.' },
+      { name: 'Angelica Rosso', designation: 'Directrice Recherche et Developpement', image: '/images/entreprise/solmani/solmani_logo.png', linkedin: 'https://www.linkedin.com/in/angelicarosso/', content: 'Organisé,concencieux,ponctuel et professionnel, Monsieur Füllemann, nous a fait une bonne impression.Il s est aquitté des tâches confiées à notre entière satisfaction.' },
       
     ]
   },
@@ -93,7 +93,7 @@ export default {
         projects: 'projects',
         uses: 'uses',
         resume: 'résumé',
-        buyMeACoffee: 'buy me a beer',
+        buyMeACoffee: 'buy me ☕',
         signIn: 'sign in',
         signOut: 'sign out'
       },
@@ -137,7 +137,7 @@ export default {
         projects: 'Projets',
         uses: 'Setup',
         resume: 'CV',
-        buyMeACoffee: 'Buy me a beer',
+        buyMeACoffee: 'Buy me ☕',
         signIn: 'sign in',
         signOut: 'sign out'
       },
