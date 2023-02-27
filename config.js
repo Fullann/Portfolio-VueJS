@@ -62,7 +62,7 @@ export default {
   recommendations: {
     enabled: true,
     meta: [
-      { name: 'Angelica Rosso', designation: 'Directrice Recherche et Developpement', image: '/images/entreprise/solmani/solmani_logo.png', linkedin: 'https://www.linkedin.com/in/angelicarosso/', content: 'Organisé,concencieux,ponctuel et professionnel, Monsieur Füllemann, nous a fait une bonne impression.Il s est aquitté des tâches confiées à notre entière satisfaction.' },
+      { name: 'Angelica Rosso', designation: 'Directrice Recherche et Developpement', image: '/images/entreprise/solmani/solmani_logo.png', linkedin: 'https://www.linkedin.com/in/angelicarosso/', content: 'Organisé, concencieux, ponctuel et professionnel, Monsieur Füllemann, nous a fait une bonne impression. Il s\u0027est aquitté des tâches confiées à notre entière satisfaction.' },
       
     ]
   },
@@ -149,9 +149,9 @@ export default {
         iBlogTech: 'je fais des expéreince',
         haveALook: 'Jetez y un coup d œil',
         friendlyNeighborhood: 'Je suis un',
-        description: 'Je suis un jeune developper frontend.Je suis étudiant à l\u0027ETML et dans mon temps libre je bricole des projets secondaires.',
+        description: 'Je suis un jeune developper frontend. Je suis étudiant à l\u0027ETML et dans mon temps libre, je code des projets personnels.',
         words: ['développeur', 'designer', 'programmeur'],
-        work: "A travailler chez"
+        work: "A travaillé chez"
       },
       githubCalendar: {
         header: 'Contributions',
@@ -174,7 +174,7 @@ export default {
         subtext: 'Cette page énumère certains de mes projets personnels et professionnels. chaque projet a une description, cliquez sur le titre pour le lire'
       },
       recommendations: {
-        header: 'Recomendations',
+        header: 'Recommandations',
         subtext: 'Ce qu on a dit de moi'
       },
       error:{
