@@ -35,7 +35,7 @@ export default {
     enabled: true,
   },
   blog: {
-    enabled: true,
+    enabled: false,
   },
   resume: {
     enabled: true,
@@ -68,18 +68,6 @@ export default {
   },
   loadingIndicator: {
     name: 'rotating-plane'
-    // https://tobiasahlin.com/spinkit/
-    // circle
-    // cube-grid
-    // fading-circle
-    // folding-cube
-    // chasing-dots
-    // nuxt
-    // pulse
-    // rectangle-bounce
-    // rotating-plane
-    // three-bounce
-    // wandering-cubes
   },
   laguageSwitcher: {
     enabled: true,
@@ -88,11 +76,11 @@ export default {
     en_US: {
       download: 'download',
       nav: {
-        home: 'home',
-        blog: 'blog',
-        projects: 'projects',
+        home: 'Home',
+        blog: 'Blog',
+        projects: 'Projects',
         uses: 'uses',
-        resume: 'résumé',
+        resume: 'CV',
         buyMeACoffee: 'buy me ☕',
         signIn: 'sign in',
         signOut: 'sign out'
@@ -100,9 +88,10 @@ export default {
       hero: {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
-        friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
-        words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
+        friendlyNeighborhood: 'I am a',
+        description: 'I am a young frontend developer. I\u0027m a student at ETML and in my free time I code for personal projects',
+        words: ['developer', 'designer', 'programmer'],
+        work: 'Worked at'
       },
       githubCalendar: {
         header: 'contributions',
@@ -121,12 +110,12 @@ export default {
         subtext: 'a quick summary of what I use on a daily basis to code and some codestats.net flex'
       },
       projects: {
-        header: 'projects',
-        subtext: 'this page lists some of my personal and work projects. every project has some story, click on the title to read'
+        header: 'Projects',
+        subtext: 'This page lists some of my personal and professional projects. Each project has a description, click on the title to read it'
       },
       recommendations: {
         header: 'recommendations',
-        subtext: 'what do my mentors say'
+        subtext: 'What they said about me'
       },
       error:{
         text:'Uh oh! Looks like you got lost.Go back to the homepage if you dare!',
