@@ -7,8 +7,8 @@ export default {
   logo: '/images/logo/logo.png',
   email: 'nathan@fullann.ch',
   googleAnalyticsV4: {
-    enabled: true,
-    id: 'G-X0R2SXXD72'
+    enabled: false,
+    id: process.env.MEASUREMENT_ID
   },
   plausibleAnalytics: {
     enabled: false,
@@ -20,7 +20,7 @@ export default {
   // enable if you want comments and likes on posts
   // see how it looks on karngyan.com
   firebase: {
-    enabled: false
+    enabled: true
   },
   social: {
     github: 'Fullann',
@@ -35,7 +35,7 @@ export default {
     enabled: true,
   },
   blog: {
-    enabled: false,
+    enabled: true,
   },
   resume: {
     enabled: true,
@@ -51,6 +51,13 @@ export default {
       {title: 'Monitor', value: 'LG QHD (2560 x 1440) 27 Inch IPS Display'},
       {title: 'Laptop • Processor • Graphics', value: 'MacBook Pro (16-inch, 2019) • 2.6 GHz 6-Core Intel Core i7 • AMD Radeon Pro 5300M 4 GB + Intel UHD Graphics 630 1536 MB'}
     ]
+  },
+  contact: {
+    enabled: true,
+    email:'nathan@fullann.ch'
+  },
+  whitemode:{
+    enabled:true
   },
   workedAt: {
     // add logos in static and at max add 3/4
