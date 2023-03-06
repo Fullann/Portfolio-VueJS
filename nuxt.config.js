@@ -69,20 +69,20 @@ const nuxtConfig = {
       { hid: 'description', name: 'description', content: config.strings.en_US.hero.description },
       { name: 'title', content: `${config.name}` },
       { name: 'author', content: config.name },
-      { property: 'og:type', content: 'website'},
+      { property: 'og:type', content: 'website' },
       { property: 'og:url', content: config.social },
       { property: 'og:title', content: `${config.name} ` },
       { property: 'og:description', content: config.strings.en_US.hero.description },
       { property: 'og:image', content: `${config.image}` },
 
       { property: 'twitter:card', content: `${config.image}` },
-      { property: 'twitter:url', content: `${config.domain}`},
+      { property: 'twitter:url', content: `${config.domain}` },
       { property: 'twitter:title', content: `${config.name}` },
       { property: 'twitter:description', content: config.strings.en_US.hero.description },
       { property: 'twitter:image', content: `${config.image}` },
     ],
     link: [
-      { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css'},
+      { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css' },
       { rel: 'icon', type: 'image/x-icon', href: '/images/logo/logo.png' }
     ],
   },
@@ -95,11 +95,11 @@ const nuxtConfig = {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/vuetyper.js', ssr: false},
-    { src: '~/plugins/directives.js', ssr: false},
-    { src: '~/plugins/aos.js', ssr: false},
-    { src: '~/plugins/vueGtag.js', ssr: false},
-    { src: '~/plugins/vueClapButton.js', ssr: false},
+    { src: '~/plugins/vuetyper.js', ssr: false },
+    { src: '~/plugins/directives.js', ssr: false },
+    { src: '~/plugins/aos.js', ssr: false },
+    { src: '~/plugins/vueGtag.js', ssr: false },
+    { src: '~/plugins/vueClapButton.js', ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -114,6 +114,7 @@ const nuxtConfig = {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/tailwindcss',
+    //TODO '@nuxtjs/color-mode'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -157,8 +158,8 @@ const nuxtConfig = {
     lazy: true,
     langDir: 'lang/',
     locales: [
-      {code: 'en', name: 'English', file: 'en_US.js'},
-      {code: 'fr', name: 'Français', file: 'fr_Fr.js'},
+      { code: 'en', name: 'English', file: 'en_US.js' },
+      { code: 'fr', name: 'Français', file: 'fr_Fr.js' },
     ],
     defaultLocale: 'en',
     vueI18n: {
@@ -195,7 +196,7 @@ const nuxtConfig = {
   tailwindcss: {
     jit: true
   },
-
+  
   loadingIndicator: {
     name: config.loadingIndicator.name || 'chasing-dots',
     color: '#fd2d78',
