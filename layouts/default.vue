@@ -12,7 +12,6 @@ export default {};
 
 <style>
 html {
-  @apply bg-gray-800 font-sans;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -22,7 +21,7 @@ html {
 }
 
 .light-mode {
-  @apply text-black bg-gray-300 font-sans;
+  @apply text-black bg-gray-800 font-sans;
 }
 
 ::-moz-selection {
