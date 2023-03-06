@@ -12,16 +12,10 @@ export default {};
 
 <style>
 html {
+  @apply bg-gray-800 font-sans;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-}
-.dark-mode {
-  @apply text-white bg-gray-800 font-sans;
-}
-
-.light-mode {
-  @apply text-black bg-gray-800 font-sans;
 }
 
 ::-moz-selection {
@@ -114,3 +108,6 @@ html {
   transform: rotate(12deg);
 }
 </style>
+<script>
+export default {};
+</script>

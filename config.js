@@ -35,7 +35,7 @@ export default {
     enabled: true,
   },
   blog: {
-    enabled: true,
+    enabled: false,
   },
   resume: {
     enabled: true,

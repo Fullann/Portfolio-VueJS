@@ -7,11 +7,10 @@ module.exports = {
   ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
-    darkSelector: '.dark-mode',
     extend: {
       colors: {
         'black': '#12151E',
-        'hot-pink': '#cf44f2',
+        'hot-pink': '#fd2d78',
         'gray-900': '#18191a',
         'gray-800': '#212324',
         'gray-700': '#2F3133',
@@ -90,7 +89,6 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms'),
     require("@tailwindcss/typography"),
-    require('@tailwindcss/line-clamp'),
-    require('tailwindcss-dark-mode')()
+    require('@tailwindcss/line-clamp')
   ],
 }

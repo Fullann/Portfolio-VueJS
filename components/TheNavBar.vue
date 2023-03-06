@@ -30,7 +30,6 @@
         <div v-if="$config.laguageSwitcher.enabled">
           <nuxt-link v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)" class="text-gray-300 hover:text-white" >{{ locale.name }}</nuxt-link>
         </div>
-        <ColorChanger class="text-3xl w-auto"  />
         <div v-if="$config.firebase.enabled">
           <div v-if="!user" @click="signInUser" class="active cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.signIn')}}</div>
           <div v-else @click="signOutUser" class="active cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.signOut')}}</div>
@@ -92,10 +91,8 @@
 
 <script>
 import TheLogo from "~/components/logos/TheLogo";
-import ColorChanger from "~/components/colorchanger/ColorMode";
-
 export default {
-  components: {TheLogo,ColorChanger},
+  components: {TheLogo},
   computed: {
     user() {
       return this.$store.state.user
