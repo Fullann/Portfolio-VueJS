@@ -4,7 +4,7 @@
   "version": "1.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate -m"
@@ -54,6 +54,7 @@
     "tailwindcss-dark-mode": "^1.1.7"
   },
   "resolutions": {
-    "pdfjs-dist": "2.5.207"
+    "pdfjs-dist": "2.5.207",
+    "autoprefixer": "10.4.5"
   }
 }
