@@ -113,7 +113,12 @@ const nuxtConfig = {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+<<<<<<< HEAD
     '@nuxtjs/tailwindcss'
+=======
+    '@nuxtjs/tailwindcss',
+    //TODO '@nuxtjs/color-mode'
+>>>>>>> parent of d0c7150 (Revert "[Update] Change color")
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -195,7 +200,7 @@ const nuxtConfig = {
   tailwindcss: {
     jit: true
   },
-
+  
   loadingIndicator: {
     name: config.loadingIndicator.name || 'chasing-dots',
     color: '#fd2d78',
