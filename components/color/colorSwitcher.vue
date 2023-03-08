@@ -21,6 +21,9 @@ export default {
     },
     methods: {
         changeMode() {
+            const colorMode = useColorMode()
+            console.log(colorMode.preference)
+            console.log(this)
             this.$colorMode.preference =
                 this.$colorMode.preference === "light" ? "dark" : "light";
         },

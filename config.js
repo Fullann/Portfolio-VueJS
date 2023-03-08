@@ -137,13 +137,13 @@ export default {
         projects: 'Projets',
         uses: 'Setup',
         resume: 'CV',
-        buyMeACoffee: 'Buy me ☕',
-        signIn: 'sign in',
-        signOut: 'sign out'
+        buyMeACoffee: 'Buy me a ☕',
+        signIn: 'Connexion',
+        signOut: 'Déconnexion'
       },
       hero: {
-        iBlogTech: 'je fais des expéreince',
-        haveALook: 'Jetez y un coup d œil',
+        iBlogTech: 'je fais des expérience',
+        haveALook: 'Jetez y un coup d\u0027œil',
         friendlyNeighborhood: 'Je suis un',
         description: 'Je suis un jeune developper frontend. Je suis étudiant à l\u0027ETML et dans mon temps libre, je code des projets personnels.',
         words: ['développeur', 'designer', 'programmeur'],
@@ -171,7 +171,7 @@ export default {
       },
       recommendations: {
         header: 'Recommandations',
-        subtext: 'Ce qu on a dit de moi'
+        subtext: 'Ce qu\u0027on a dit de moi'
       },
       error:{
         text:'Oh oh ! On dirait que tu t\u0027es perdu.Retournez à la page d\u0027accueil si vous l\u0027osez !',
