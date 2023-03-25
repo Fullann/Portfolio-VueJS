@@ -57,7 +57,7 @@ export default {
     email:'nathan@fullann.ch'
   },
   whitemode:{
-    enabled:true
+    enabled:false
   },
   workedAt: {
     // add logos in static and at max add 3/4
