@@ -5,7 +5,7 @@ description: Mon portfolio
 tech: Vue NodeJS Firebase Nuxt Tailwind 
 logo: /images/project/portfolio.png
 github: https://github.com/Fullann/Portfolio
-website: fullann.ch
+website: https://fullann.ch
 ---
 
 # Portfolio

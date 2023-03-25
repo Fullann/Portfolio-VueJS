@@ -5,7 +5,7 @@ description: Site web pour créer une application de todo list complétement cus
 tech: React NodeJS Firebase
 logo: /images/project/todolist.png
 github: https://github.com/Fullann/TodoList
-website: todolist.fullann.ch
+website: https://todolist.fullann.ch
 ---
 
 # TodoList

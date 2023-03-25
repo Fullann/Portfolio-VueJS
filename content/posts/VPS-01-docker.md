@@ -1,6 +1,6 @@
 ---
 id: 2
-title: Création VPS
+title: Instalation de Docker
 createdAt: "2022-03-01 5:00:00"
 # image field is not mandatory
 # you can skip it to keep the size of blog cards small
@@ -9,7 +9,7 @@ tags:
   - vps
   - français
   - ubuntu
-  - cockpit
+  - docker
 category: VPS
 author:
   name: Fullann
@@ -19,7 +19,7 @@ author:
 Bonjour a vous ! Le monde de l'informatique est en constante évolution et la virtualisation est une technologie qui prend de plus en plus d'importance. Un VPS ou serveur privé virtuel est une solution d'hébergement qui permet à un utilisateur de disposer de son propre serveur virtuel, sans avoir à investir dans du matériel coûteux. Dans cet article, nous allons expliquer comment créer un VPS Contabo.
 
 <!--more-->
-Step 1 — Installing Docker
+## Installing Docker
 The Docker installation package available in the official Ubuntu repository may not be the latest version. To ensure we get the latest version, we’ll install Docker from the official Docker repository. To do that, we’ll add a new package source, add the GPG key from Docker to ensure the downloads are valid, and then install the package.
 
 First, update your existing list of packages:
