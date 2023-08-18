@@ -4,6 +4,7 @@
 Ce projet a été réaliser dans le cadre de la fin de l'ETML et de la recherche d'emplois.Ce portfolio est complétement customisable. Tous les adones (i18n,blog,project,review,cv,connexion, etc) peuvent etre actionner ou non
 
 ## Instalation
+### Pour le developpement
 Il vous suffit de cloner le répertoire
 ```
 git clone https://github.com/Fullann/Portfolio.git
@@ -19,13 +20,47 @@ cp .env.example .env
 ```
 - Introduire les donnée de connexion mise sur [firebase](https://firebase.google.com/)(N'oublier pas d'activer l'autentification et les types de connexion que vous souhaiter. Sur le projet seulment en anonyme et google son mis) dans le .env.
 - Configurer comme vous le souhaiter le config.js
-<br>
+
 Puis start le projet
-<br>
 ```
-yarn start
+yarn dev 
 ```
 Et enjoy ;)
+
+### Pour la production
+Pour mettre en production commencer par cloner
+```
+git clone https://github.com/Fullann/Portfolio.git
+ ```
+Installer les dépendances (Ce projet n'a pas été maintenue à jour donc possibilité de crash avec les nouvelle version de NodeJS. la mienne 14.16.0) 
+```
+yarn install 
+```
+Configurer votre base de donnée firebase
+```
+// Copier le .env.example
+cp .env.example .env
+```
+Puis build l'application
+```
+yarn build 
+```
+Puis génèrer l'application
+```
+yarn generate 
+```
+Puis on utilise le pakage serve qui permet de créer le serveur pour l'application
+```
+yarn global add serve
+```
+Et enfin pour lancer l'application 
+```
+serve -s dist
+```
+
+## Configuration
+## Config du template
+Dans le fichier "/config.js " permet de modifier toutes les informations du site 
 
 ### Ajouter une langue
 Dans le fichier /nuxt.config.js sous la partie i18n ajouter ceci sous locales:
