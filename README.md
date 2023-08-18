@@ -1,4 +1,5 @@
 # PortfolioV1
+ ![Pc main page](/appimage/pc-main-page.png "Pc main page")![Phone main page](/appimage/phone-main-page.png "Phone main page")
 
 ## Introduction
 Ce projet a été réaliser dans le cadre de la fin de l'ETML et de la recherche d'emplois.Ce portfolio est complétement customisable. Tous les adones (i18n,blog,project,review,cv,connexion, etc) peuvent etre actionner ou non
