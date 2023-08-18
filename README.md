@@ -1,4 +1,4 @@
-# Portfolio
+# PortfolioV1
 
 ## Introduction
 Ce projet a été réaliser dans le cadre de la fin de l'ETML et de la recherche d'emplois.Ce portfolio est complétement customisable. Tous les adones (i18n,blog,project,review,cv,connexion, etc) peuvent etre actionner ou non
@@ -21,6 +21,7 @@ cp .env.example .env
 - Configurer comme vous le souhaiter le config.js
 <br>
 Puis start le projet
+<br>
 ```
 yarn start
 ```
